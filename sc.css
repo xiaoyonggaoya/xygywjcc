@@ -1,0 +1,101 @@
+ul {
+  padding-left: 20px;
+}
+ul li {
+  line-height: 2.3;
+}
+.srk {
+    height: 16px;
+    background-color: #fff9;
+    border:1px solid #000;
+}
+.zhuti {
+  width: 70%;
+  background-color: #ccc9;
+  padding: 2% 5%;
+  border-radius: 10px
+}
+.dilan {
+    background-color: #9999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.dilan a {
+    color: #00f;
+    text-decoration: none;
+}
+.dinglan {
+    background-color: #9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+.dinglan a {
+    color: #00f;
+    text-decoration: none;
+}
+.botton {
+    background-color:#fff;
+    border:1px solid #000;
+    text-shadow:0px 1px 0px #fff;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-family:Arial;
+    font-size:15px;
+    padding:9px 16px;
+    text-decoration:none;
+    position:relative;
+    top:1px;
+}
+.fileuploadxz {
+    border:3px solid #7779;
+    height: 250px; 
+    background-image: url('fileuploadxz.png');
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+    background-attachment: scroll;
+}
+.fileupload {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 100%100%;
+    background-attachment: fixed;
+}
+@media screen and (orientation: landscape) {
+body {
+    background-image: url('bg-pc.png');
+}
+.zhuti {
+    margin: 5% auto 0;
+}
+.srk {
+    width: 50%;
+}
+.fileuploadxz {
+    width: 70%;
+}
+}
+@media screen and (orientation: portrait) {
+body {
+    background-image: url('bg-sj.png');
+}
+.zhuti {
+    margin: 20% auto 0;
+}
+.srk {
+    width: 90%;
+}
+.fileuploadxz {
+    width: 100%;
+}
+}

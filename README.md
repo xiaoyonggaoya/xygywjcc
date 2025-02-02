@@ -3,3 +3,4 @@
 部署后需要将 scjs.js 里的 localhost:8080 替换为你自己的域名  
 比较简陋，不过能用  
 自己搭的一些存储站列表（演示）：[https://xiaoyonggaoya.pages.dev/xygywjcc](https://xiaoyonggaoya.pages.dev/xygywjcc)  
+喜欢的话就点一下右上角的 star 吧
